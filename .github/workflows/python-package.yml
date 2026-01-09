@@ -3,7 +3,9 @@
 
 name: Python package
 
- branches: [ "main" ]
+on:
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
   build:
